@@ -1,6 +1,9 @@
-fastapi<1.0,>=0.115
-pydantic[email]<3.0,>=2.8
-uvicorn[standard]<1.0,>=0.30
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.8.0
+email-validator>=2.2.0
+cryptography>=48.0.1
+pycryptodome>=3.24.0
 
 [dev]
 httpx<1.0,>=0.27

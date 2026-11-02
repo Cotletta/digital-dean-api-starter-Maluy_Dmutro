@@ -3,9 +3,12 @@ Name: digital-dean-api
 Version: 0.1.0
 Summary: Навчальний API інформаційної системи Цифровий деканат
 Requires-Python: >=3.12
-Requires-Dist: fastapi<1.0,>=0.115
-Requires-Dist: pydantic[email]<3.0,>=2.8
-Requires-Dist: uvicorn[standard]<1.0,>=0.30
+Requires-Dist: fastapi>=0.115.0
+Requires-Dist: uvicorn>=0.30.0
+Requires-Dist: pydantic>=2.8.0
+Requires-Dist: email-validator>=2.2.0
+Requires-Dist: cryptography>=48.0.1
+Requires-Dist: pycryptodome>=3.24.0
 Provides-Extra: dev
 Requires-Dist: httpx<1.0,>=0.27; extra == "dev"
 Requires-Dist: pytest<10.0,>=8.3; extra == "dev"

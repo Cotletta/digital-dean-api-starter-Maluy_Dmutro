@@ -17,8 +17,15 @@ class StudentRepository:
         self._students: dict[UUID, StudentRead] = {}
 
     def clear(self) -> None:
-        """Очищає сховище для тестування."""
-        self._students.clear()
+        if hasattr(self, "_students") and isinstance(self._students, dict):
+            self._students.clear()
+        elif hasattr(self, "students") and isinstance(self.students, dict):
+            self.students.clear()
+        
+        # Очищаємо всі інші внутрішні словники, якщо вони є
+        for attr in ["_emails", "_email_map", "emails", "_by_email"]:
+            if hasattr(self, attr):
+                getattr(self, attr).clear()
 
     def create(self, student_in: StudentCreate) -> StudentRead:
         for student in self._students.values():

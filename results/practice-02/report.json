@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "environment": {
+    "python_version": "3.14.3",
+    "system": "Windows",
+    "machine": "AMD64"
+  },
+  "results": [
+    {
+      "algorithm": "AES-128-GCM",
+      "backend": "cryptography",
+      "payload_size": "64B",
+      "bytes": 64,
+      "seal_time_ms": 0.00538,
+      "open_time_ms": 0.00274,
+      "throughput_mb_s": 7.52
+    },
+    {
+      "algorithm": "AES-128-GCM",
+      "backend": "cryptography",
+      "payload_size": "1KB",
+      "bytes": 1024,
+      "seal_time_ms": 0.00287,
+      "open_time_ms": 0.00359,
+      "throughput_mb_s": 151.23
+    },
+    {
+      "algorithm": "AES-128-GCM",
+      "backend": "cryptography",
+      "payload_size": "64KB",
+      "bytes": 65536,
+      "seal_time_ms": 0.01065,
+      "open_time_ms": 0.0095,
+      "throughput_mb_s": 3101.89
+    },
+    {
+      "algorithm": "AES-128-GCM",
+      "backend": "cryptography",
+      "payload_size": "1MB",
+      "bytes": 1048576,
+      "seal_time_ms": 0.54799,
+      "open_time_ms": 0.60209,
+      "throughput_mb_s": 869.51
+    },
+    {
+      "algorithm": "AES-128-GCM",
+      "backend": "pycryptodome",
+      "payload_size": "64B",
+      "bytes": 64,
+      "seal_time_ms": 0.09533,
+      "open_time_ms": 0.06291,
+      "throughput_mb_s": 0.39
+    },
+    {
+      "algorithm": "AES-128-GCM",
+      "backend": "pycryptodome",
+      "payload_size": "1KB",
+      "bytes": 1024,
+      "seal_time_ms": 0.07188,
+      "open_time_ms": 0.06836,
+      "throughput_mb_s": 6.96
+    },
+    {
+      "algorithm": "AES-128-GCM",
+      "backend": "pycryptodome",
+      "payload_size": "64KB",
+      "bytes": 65536,
+      "seal_time_ms": 0.1226,
+      "open_time_ms": 0.1503,
+      "throughput_mb_s": 229.02
+    },
+    {
+      "algorithm": "AES-128-GCM",
+      "backend": "pycryptodome",
+      "payload_size": "1MB",
+      "bytes": 1048576,
+      "seal_time_ms": 1.55905,
+      "open_time_ms": 1.23076,
+      "throughput_mb_s": 358.45
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "backend": "cryptography",
+      "payload_size": "64B",
+      "bytes": 64,
+      "seal_time_ms": 0.00299,
+      "open_time_ms": 0.00278,
+      "throughput_mb_s": 10.58
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "backend": "cryptography",
+      "payload_size": "1KB",
+      "bytes": 1024,
+      "seal_time_ms": 0.00307,
+      "open_time_ms": 0.00296,
+      "throughput_mb_s": 162.18
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "backend": "cryptography",
+      "payload_size": "64KB",
+      "bytes": 65536,
+      "seal_time_ms": 0.01042,
+      "open_time_ms": 0.01024,
+      "throughput_mb_s": 3024.79
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "backend": "cryptography",
+      "payload_size": "1MB",
+      "bytes": 1048576,
+      "seal_time_ms": 0.57839,
+      "open_time_ms": 0.60695,
+      "throughput_mb_s": 843.64
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "backend": "pycryptodome",
+      "payload_size": "64B",
+      "bytes": 64,
+      "seal_time_ms": 0.05452,
+      "open_time_ms": 0.05511,
+      "throughput_mb_s": 0.56
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "backend": "pycryptodome",
+      "payload_size": "1KB",
+      "bytes": 1024,
+      "seal_time_ms": 0.05604,
+      "open_time_ms": 0.05659,
+      "throughput_mb_s": 8.67
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "backend": "pycryptodome",
+      "payload_size": "64KB",
+      "bytes": 65536,
+      "seal_time_ms": 0.11479,
+      "open_time_ms": 0.11421,
+      "throughput_mb_s": 272.92
+    },
+    {
+      "algorithm": "AES-256-GCM",
+      "backend": "pycryptodome",
+      "payload_size": "1MB",
+      "bytes": 1048576,
+      "seal_time_ms": 1.1404,
+      "open_time_ms": 1.09273,
+      "throughput_mb_s": 447.8
+    },
+    {
+      "algorithm": "ChaCha20-Poly1305",
+      "backend": "cryptography",
+      "payload_size": "64B",
+      "bytes": 64,
+      "seal_time_ms": 0.00315,
+      "open_time_ms": 0.00269,
+      "throughput_mb_s": 10.45
+    },
+    {
+      "algorithm": "ChaCha20-Poly1305",
+      "backend": "cryptography",
+      "payload_size": "1KB",
+      "bytes": 1024,
+      "seal_time_ms": 0.00315,
+      "open_time_ms": 0.00312,
+      "throughput_mb_s": 155.88
+    },
+    {
+      "algorithm": "ChaCha20-Poly1305",
+      "backend": "cryptography",
+      "payload_size": "64KB",
+      "bytes": 65536,
+      "seal_time_ms": 0.02113,
+      "open_time_ms": 0.02474,
+      "throughput_mb_s": 1362.62
+    },
+    {
+      "algorithm": "ChaCha20-Poly1305",
+      "backend": "cryptography",
+      "payload_size": "1MB",
+      "bytes": 1048576,
+      "seal_time_ms": 0.7576,
+      "open_time_ms": 0.75045,
+      "throughput_mb_s": 663.11
+    },
+    {
+      "algorithm": "ChaCha20-Poly1305",
+      "backend": "pycryptodome",
+      "payload_size": "64B",
+      "bytes": 64,
+      "seal_time_ms": 0.02425,
+      "open_time_ms": 0.02343,
+      "throughput_mb_s": 1.28
+    },
+    {
+      "algorithm": "ChaCha20-Poly1305",
+      "backend": "pycryptodome",
+      "payload_size": "1KB",
+      "bytes": 1024,
+      "seal_time_ms": 0.02513,
+      "open_time_ms": 0.02509,
+      "throughput_mb_s": 19.45
+    },
+    {
+      "algorithm": "ChaCha20-Poly1305",
+      "backend": "pycryptodome",
+      "payload_size": "64KB",
+      "bytes": 65536,
+      "seal_time_ms": 0.12244,
+      "open_time_ms": 0.11852,
+      "throughput_mb_s": 259.38
+    },
+    {
+      "algorithm": "ChaCha20-Poly1305",
+      "backend": "pycryptodome",
+      "payload_size": "1MB",
+      "bytes": 1048576,
+      "seal_time_ms": 1.71218,
+      "open_time_ms": 1.7,
+      "throughput_mb_s": 293.07
+    }
+  ]
+}
